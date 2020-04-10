@@ -1,0 +1,28 @@
+@import '../../styles/variable.module';
+
+.container {
+  padding: 20px;
+  width: 100%;
+  margin: 40px 0 0;
+  border-radius: 26px;
+  background: $background-color;
+  box-shadow: 6px 6px 12px #ddd, -6px -6px 12px #fff;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+      border-bottom: 1px solid black;
+      text-align: center;
+      padding: 16px;
+    }
+
+    td {
+      text-align: center;
+      padding: 10px 8px;
+    }
+  }
+}

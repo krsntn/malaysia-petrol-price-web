@@ -1,0 +1,22 @@
+@import '../../styles/variable.module';
+
+.header {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 720px;
+    max-width: 90%;
+    text-align: center;
+
+    .title {
+      margin: 16px 0 26px;
+      color: $font-color;
+
+      .remark {
+        margin-left: 10px;
+        font-size: 1rem;
+      }
+    }
+  }
+}
