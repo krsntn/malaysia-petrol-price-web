@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
       <div className={css.mainDiv}>
         <main>{children}</main>
         <footer className={css.footer}>
-          © {new Date().getFullYear()}, Built by
+          © 2020, Built by
           {` `}
           <a href="https://dev.karson.tk">Karson</a>
         </footer>

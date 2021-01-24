@@ -21,9 +21,9 @@ const table = ({ data }) => {
                 <tr key={i}>
                   <td>{week.from}</td>
                   <td>{week.through}</td>
-                  <td>{week.ron95}</td>
-                  <td>{week.ron97}</td>
-                  <td>{week.diesel}</td>
+                  <td>RM {week.ron95}</td>
+                  <td>RM {week.ron97}</td>
+                  <td>RM {week.diesel}</td>
                 </tr>
               );
             })

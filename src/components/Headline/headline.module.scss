@@ -1,7 +1,8 @@
 @import '../../styles/variable.module';
 
-$yellow: #ffffe0;
-$green: #d6ead6;
+$yellow: #ffff9f;
+$green: #95f395;
+$black: #999999;
 
 @mixin box-maxin($color) {
   border: 10px solid $color;
@@ -79,6 +80,16 @@ $green: #d6ead6;
         background: rgba($green, 0.1);
         box-shadow: inset 3px 3px 4px #dfdfdf,
           inset -3px -3px 4px rgba($green, 0.9);
+      }
+    }
+
+    &:nth-child(3) {
+      background: rgba($black, 0.4);
+
+      .price {
+        background: rgba($black, 0.1);
+        box-shadow: inset 3px 3px 4px #dfdfdf,
+          inset -3px -3px 4px rgba($black, 0.9);
       }
     }
 

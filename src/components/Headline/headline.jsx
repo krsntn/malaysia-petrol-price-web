@@ -22,51 +22,51 @@ const headline = ({ data }) => {
     <div className={css.container}>
       <div className={css.card}>
         <div>
-          <div className={css.title}>RON95</div>
+          <div className={css.title}>⛽ RON95</div>
           <div className={css.number}>
             <div className={css.price}>
-              {headlineData ? headlineData.ron95 : '...'}
+              RM {headlineData ? headlineData.ron95 : '...'}
             </div>
             <div
               className={css.diff}
               data-positive={ron95Diff > 0}
               data-negative={ron95Diff < 0}
             >
-              {ron95Diff}
+              {ron95Diff > 0 ? '⬆️' : '⬇️'} RM {ron95Diff}
             </div>
           </div>
         </div>
       </div>
       <div className={css.card}>
         <div>
-          <div className={css.title}>RON97</div>
+          <div className={css.title}>⛽ RON97</div>
           <div className={css.number}>
             <div className={css.price}>
-              {headlineData ? headlineData.ron97 : '...'}
+              RM {headlineData ? headlineData.ron97 : '...'}
             </div>
             <div
               className={css.diff}
               data-positive={ron95Diff > 0}
               data-negative={ron95Diff < 0}
             >
-              {ron97Diff}
+              {ron97Diff > 0 ? '⬆️' : '⬇️'} RM {ron97Diff}
             </div>
           </div>
         </div>
       </div>
       <div className={css.card}>
         <div>
-          <div className={css.title}>DIESEL</div>
+          <div className={css.title}>⛽ DIESEL</div>
           <div className={css.number}>
             <div className={css.price}>
-              {headlineData ? headlineData.diesel : '...'}
+              RM {headlineData ? headlineData.diesel : '...'}
             </div>
             <div
               className={css.diff}
               data-positive={ron95Diff > 0}
               data-negative={ron95Diff < 0}
             >
-              {dieselDiff}
+              {dieselDiff > 0 ? '⬆️' : '⬇️'} RM {dieselDiff}
             </div>
           </div>
         </div>
