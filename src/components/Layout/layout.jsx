@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <footer className={css.footer}>
           © 2020, Built by
           {` `}
-          <a href="https://dev.karson.xyz">Karson</a>
+          <a href="https://dev.krsn.xyz">Karson</a>
         </footer>
       </div>
     </>

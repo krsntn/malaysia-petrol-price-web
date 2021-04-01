@@ -1,13 +1,13 @@
 @import '../../styles/variable.module';
 
-.spinner {
+.masking {
   display: inline-block;
   position: fixed;
   width: 100%;
   height: 100%;
   background: rgba(#000, 0.6);
 
-  div {
+  .spinner {
     box-sizing: border-box;
     display: block;
     position: absolute;
@@ -19,7 +19,7 @@
     border: 4px solid #fff;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: #999 transparent transparent transparent;
+    border-color: #fff transparent transparent transparent;
 
     &:nth-child(1) {
       animation-delay: -0.45s;
@@ -32,6 +32,15 @@
     &:nth-child(3) {
       animation-delay: -0.15s;
     }
+  }
+
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% + 76px));
+    color: #fff;
+    text-align: center;
   }
 }
 
